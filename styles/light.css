@@ -3,10 +3,24 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
+/* .header__decorate {
+  display: none;
+} */
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --background-color: #fff1f7;
+  --title-color: #ffc2e6;
+  --decorate-element: #353430;
+  --accent-color: #ff8dcb;
+  --content-color-title: #353430;
+  --content-color-title-point: #353430;
+  --content-color: #ff8dcb;
+  --header-background-text: #ff8dcb;
+  --text-color: #353430;
+  --background-image: url(../images/cover-image-light.png);
+  --shadow-color:  #ff8dcb;
+  --display-rec: none;
 }
