@@ -221,7 +221,7 @@
     grid-row: 1;
     align-self: center;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    margin-top: 6px;
+    /* margin-top: 6px; */
   }
 
   .decorated-zone::before {
