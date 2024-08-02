@@ -216,8 +216,12 @@
     padding-left: 0;
   }
 
-  .decoration__title{
+  .decoration__title {
     margin-top: 0;
+    grid-row: 1;
+    align-self: center;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    margin-top: 6px;
   }
 
   .decorated-zone::before {
@@ -242,13 +246,6 @@
 
   .header__theme-menu-list {
     font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
-  }
-
-  .decoration__title {
-    grid-row: 1;
-    align-self: center;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    margin-top: 6px;
   }
 
   .header__text {
