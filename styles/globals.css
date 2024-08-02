@@ -61,3 +61,11 @@ a:focus {
 a:focus-visible {
   border: 1px solid var(--text-color);
 }
+
+button:focus {
+  outline: none;
+}
+
+button:focus-visible {
+  border-bottom: 1px solid var(--content-color-title);
+}
