@@ -3,7 +3,7 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-.page.theme_dark .header__decorated-element {
+.page.theme_dark .header__decorate {
   display: block;
 }
 
