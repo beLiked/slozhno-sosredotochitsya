@@ -185,6 +185,7 @@
 }
 
 .footer {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -215,13 +216,13 @@
   }
 
   .decorated-zone::before {
-    top: 11px;
-    right: 28px;
+    top: 20px;
+    right: 20px;
   }
 
   .decorated-zone::after {
-    bottom: 10px;
-    left: 10px;
+    bottom: 20px;
+    left: 20px;
   }
 
   .header__decorate {
