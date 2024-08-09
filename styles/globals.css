@@ -37,6 +37,10 @@ picture {
   padding: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 button,
 a {
   color: currentColor;
