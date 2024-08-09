@@ -22,6 +22,7 @@
   --text-color: #353430;
   --background-image: url(../images/cover-image-light.png);
   --shadow-color:  #ff8dcb;
+  --hover-color: rgba(50, 49, 45, 0.4)
   /* --display-rec: none; */
 }
 
@@ -39,5 +40,6 @@
     --background-image: url(../images/cover-image-light.png);
     --shadow-color:  #ff8dcb;
     --display-rec: none;
+    --hover-color: rgba(50, 49, 45, 0.4)
   }
 }

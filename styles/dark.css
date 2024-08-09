@@ -23,4 +23,5 @@
   --header-background-text: #ff0070;
   --background-image: url(../images/cover-image-dark.png);
   --shadow-color: #ff0070;
+  --hover-color: rgba(255, 0, 112, 0.4)
 }

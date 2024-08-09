@@ -51,7 +51,7 @@ a {
 
 a {
   text-decoration: none;
-  text-shadow: 2px 2px 0 var(--decorate-element);
+  text-shadow: 2px 2px 0 var(--shadow-color);
 }
 
 a:hover {
